@@ -1,0 +1,8 @@
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\bin\x86\Release\Content\Textures\whiteTexture.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\bin\x86\Release\Content\Models\cube.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\bin\x86\Release\VoxelEditor.exe
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\bin\x86\Release\VoxelEditor.pdb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\obj\x86\Release\VoxelEditor.exe
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\obj\x86\Release\VoxelEditor.pdb
