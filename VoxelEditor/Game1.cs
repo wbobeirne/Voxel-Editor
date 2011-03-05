@@ -52,9 +52,13 @@ namespace VoxelEditor
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+            graphics.PreparingDeviceSettings += new EventHandler<PreparingDeviceSettingsEventArgs>(GraphicsPreparingDeviceSettings);
+            //Make an EH for when the user wants to resize the window, updates the camera's projection
+            this.Window.AllowUserResizing = true;
+            this.Window.ClientSizeChanged += new EventHandler(WindowSizeChanged);
             Content.RootDirectory = "Content";
             //Anti aliasing stuffs
-            graphics.PreferMultiSampling = true;
+            //graphics.PreferMultiSampling = true;
             graphics.ApplyChanges();
         }
 
@@ -98,6 +102,28 @@ namespace VoxelEditor
             voxelCursor.scale = 1.01f;
         }
 
+        //Found this method on XNA Fever, meant for anti aliasing. Many thanks.
+        void GraphicsPreparingDeviceSettings(object sender, PreparingDeviceSettingsEventArgs e) {
+            PresentationParameters pp = e.GraphicsDeviceInformation.PresentationParameters;
+            #if XBOX
+                pp.MultiSampleQuality = 1;
+                pp.MultiSampleType = MultiSampleType.FourSamples;
+                return;
+            #endif
+            GraphicsAdapter adapter = e.GraphicsDeviceInformation.Adapter;
+            SurfaceFormat format = adapter.CurrentDisplayMode.Format;
+
+            int quality = 0;
+            if (adapter.CheckDeviceMultiSampleType(DeviceType.Hardware, format, false, MultiSampleType.FourSamples, out quality)) {
+                pp.MultiSampleQuality = 0;
+                pp.MultiSampleType = MultiSampleType.FourSamples;
+            }
+            else if (adapter.CheckDeviceMultiSampleType(DeviceType.Hardware, format, false, MultiSampleType.TwoSamples, out quality)) {
+                pp.MultiSampleQuality = 0;
+                pp.MultiSampleType = MultiSampleType.TwoSamples;
+            }
+        }
+
         /// <summary>
         /// UnloadContent will be called once per game and is the place to unload
         /// all content.
@@ -128,16 +154,17 @@ namespace VoxelEditor
             MovementInputCheck(keyboardState, oldState, Keys.Add, new Vector3(0, 2f, 0));
             MovementInputCheck(keyboardState, oldState, Keys.Subtract, new Vector3(0, -2f, 0));
             if (keyboardState.IsKeyDown(Keys.Space))
-                voxelList.Add(new Voxel(voxelModel, voxelCursor.world, voxelTexture, color));
+                PlaceVoxel();
+            if (keyboardState.IsKeyDown(Keys.Delete))
+                RemoveVoxel();
 
             oldState = keyboardState;
 
-            //Color randomizer
+            //Color randomizer, a placeholder until I get some real color picking
             if (keyboardState.IsKeyDown(Keys.C))
                 color = new Vector3((float)randomColor.NextDouble(),
                     (float)randomColor.NextDouble(), (float)randomColor.NextDouble());
 
-            //Mouse based stuff
             MouseState ms = Mouse.GetState();
 
             mousePos.X = ms.X;
@@ -145,10 +172,10 @@ namespace VoxelEditor
             scrollWheel = ms.ScrollWheelValue;
 
             if(mousePos.X != mousePosOld.X && ms.LeftButton == ButtonState.Pressed){
-                camera.Rotate((float)-(mousePos.X - mousePosOld.X)/100, Vector3.Up);
+                camera.Rotate((float)-(mousePos.X - mousePosOld.X)/100, Vector3.Left);
             }
             if (mousePos.Y != mousePosOld.Y && ms.LeftButton == ButtonState.Pressed) {
-                camera.Rotate((float)(mousePos.Y - mousePosOld.Y)/100, Vector3.Left);
+                camera.Rotate((float)(mousePos.Y - mousePosOld.Y)/100, Vector3.Up);
             }
             if (mousePos.X != mousePosOld.X && ms.RightButton == ButtonState.Pressed) {
                 //camera.PanX((float)-(mousePos.X - mousePosOld.X)/30, new Vector3(0, 1, 0));
@@ -179,8 +206,46 @@ namespace VoxelEditor
             base.Update(gameTime);
         }
 
+        //The following 3 methods are for placing and removing voxels
+        //While visually, you wouldn't see anything with just adding a voxel to the list
+        //You could basically put an infinite amount in one spot
+        //Them there's some bad news bears
+        private Voxel CheckForVoxel() {
+
+            Voxel returnVoxel = null;
+
+            foreach (Voxel voxel in voxelList) {
+                if (voxel.world == voxelCursor.world) {
+                    returnVoxel = voxel;
+                    continue;
+                }
+            }
+
+            return returnVoxel;
+        
+        }
+
+        private void PlaceVoxel() {
+            Voxel placementVoxel = CheckForVoxel();
+
+            if (placementVoxel == null) {
+                voxelList.Add(new Voxel(voxelModel, voxelCursor.world, voxelTexture, color));
+            }
+
+        }
+
+        private void RemoveVoxel() {
+            Voxel voxelToDelete = CheckForVoxel();
+            if (voxelToDelete != null) {
+                voxelList.Remove(voxelToDelete);
+            }
+        }
+
 
         //Much appreciation to Joel Martinez of Stack Overflow for showing me this
+        //This makes it so movement isn't done every time update rolls around and you're holding a key
+        //Instead, it does it once, then waits a tick to see if you really wanted to hold it
+        //Then it does it once every 5th update
         protected void MovementInputCheck(KeyboardState keyboardState, KeyboardState oldState, 
             Keys key, Vector3 direction){
 
@@ -209,6 +274,12 @@ namespace VoxelEditor
                 counter = 0;
             }
 
+        }
+
+        //Event handler for when the client changes the camera size
+        //Have to update the camera for when that happens
+        void WindowSizeChanged(object sender, EventArgs e) {
+            camera.UpdateProjection(this);
         }
 
         /// <summary>

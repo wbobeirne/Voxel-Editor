@@ -4,10 +4,8 @@ using System.Linq;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace VoxelEditor
-{
-    class Voxel
-    {
+namespace VoxelEditor {
+    public class Voxel {
 
         public Model model { get; protected set; }
         public Matrix world { get; set; }
@@ -30,7 +28,7 @@ namespace VoxelEditor
         }
 
         public virtual void Update() {
-            
+
         }
 
         public void Draw(Camera camera) {

@@ -60,24 +60,26 @@ namespace VoxelEditor {
             base.Update(gameTime);
         }
 
-        public void Rotate(float radsToRotate, Vector3 rotationAxis) {
+        public void Rotate(float radsToRotate, Vector3 rotationAxis) {; 
 
-            Matrix yrMatrix = new Matrix();
-
-            yrMatrix.M11 = 1; yrMatrix.M21 = 0; yrMatrix.M31 = 0; 
-            yrMatrix.M12 = 0; yrMatrix.M22 = 0; yrMatrix.M32 = -1; 
-            yrMatrix.M13 = 0; yrMatrix.M23 = 1; yrMatrix.M33 = 0; 
-
-            if (rotationAxis == Vector3.Up) {
+            if (rotationAxis == Vector3.Left) {
                 position = Vector3.Transform((position - target),
                     Matrix.CreateRotationY(radsToRotate)) + target;
             }
-            else if (rotationAxis == Vector3.Left) {
+            else if (rotationAxis == Vector3.Up) {
                 position = Vector3.Transform((position - target),
                     Matrix.CreateRotationX(radsToRotate)) + target;
                 
             }
 
+        }
+
+        public void UpdateProjection(Game game) {
+            projection = Matrix.CreatePerspectiveFieldOfView(
+                MathHelper.PiOver4,
+                (float)Game.Window.ClientBounds.Width /
+                (float)Game.Window.ClientBounds.Height,
+                1, 10000);
         }
 
         public void Zoom(float distanceToZoom){           
