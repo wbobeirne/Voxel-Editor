@@ -1,0 +1,42 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Net;
+using Microsoft.Xna.Framework.Storage;
+
+namespace VoxelEditor {
+    class Floor {
+
+        Vector3 size;
+        Vector3 position;
+        VertexPositionNormalTexture[] verticies;
+        int triangles;
+        VertexBuffer buffer;
+        Texture2D texture;
+
+
+        public Floor(Vector3 sz, Vector3 pos) {
+
+            size = sz;
+            position = pos;
+
+        }
+
+        private void BuildFloor(){
+
+            triangles = 2;
+
+            verticies = new VertexPositionNormalTexture[4];
+
+            Vector3 bottomLeft = position + 
+                new Vector3(-1f, -1f, 0);
+
+    }
+}
