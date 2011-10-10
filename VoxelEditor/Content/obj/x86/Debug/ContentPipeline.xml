@@ -7,8 +7,62 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\bin\x86\Debug\Content\Textures\whiteTexture.xnb</Output>
-      <Time>2011-02-25T09:51:55-05:00</Time>
+      <Output>C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Textures\whiteTexture.xnb</Output>
+      <Time>2011-03-21T21:40:52-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\HUD\ColorButton.png</Source>
+      <Name>Textures\HUD\ColorButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Textures\HUD\ColorButton.xnb</Output>
+      <Time>2011-03-29T20:50:45-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\HUD\ColorButtonFull.png</Source>
+      <Name>Textures\HUD\ColorButtonFull</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Textures\HUD\ColorButtonFull.xnb</Output>
+      <Time>2011-03-29T20:50:51-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\HUD\LoadButton.png</Source>
+      <Name>Textures\HUD\LoadButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Textures\HUD\LoadButton.xnb</Output>
+      <Time>2011-03-29T20:50:54-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\HUD\SaveButton.png</Source>
+      <Name>Textures\HUD\SaveButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Textures\HUD\SaveButton.xnb</Output>
+      <Time>2011-03-29T20:50:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\grid.png</Source>
+      <Name>Textures\grid</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Textures\grid.xnb</Output>
+      <Time>2011-03-29T20:51:03-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\HUD\HUDbar.png</Source>
+      <Name>Textures\HUD\HUDbar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Textures\HUD\HUDbar.xnb</Output>
+      <Time>2011-03-29T20:51:17-04:00</Time>
     </Item>
     <Item>
       <Source>Models\cube.fbx</Source>
@@ -16,11 +70,37 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\bin\x86\Debug\Content\Models\cube.xnb</Output>
-      <Time>2011-02-28T21:21:52.0001017-05:00</Time>
+      <Output>C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Models\cube.xnb</Output>
+      <Time>2011-03-21T21:40:52-04:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Models\cube_0.xml</Key>
-        <Value>2011-03-04T21:36:16.6671373-05:00</Value>
+        <Value>2011-10-09T23:30:26.7534043-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\backdropFull.fbx</Source>
+      <Name>Models\backdropFull</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Models\backdropFull.xnb</Output>
+      <Time>2011-03-29T20:49:34-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\backdropFull_0.xml</Key>
+        <Value>2011-10-09T23:30:26.9534045-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\flatePlane.fbx</Source>
+      <Name>Models\flatePlane</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Models\flatePlane.xnb</Output>
+      <Time>2011-03-29T20:50:29-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\flatePlane_0.xml</Key>
+        <Value>2011-10-09T23:30:27.0334046-04:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -28,46 +108,60 @@
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Models\cube_0.xml</Output>
-      <Time>2011-02-28T21:21:52.0001017-05:00</Time>
+      <Time>2011-03-21T21:40:52-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\backdropFull.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\backdropFull_0.xml</Output>
+      <Time>2011-03-29T20:49:34-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\flatePlane.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\flatePlane_0.xml</Output>
+      <Time>2011-03-29T20:50:29-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Will\Voxel-Editor\VoxelEditor\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Will\Voxel-Editor\VoxelEditor\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Will\Voxel-Editor\VoxelEditor\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
         <Value>2009-05-28T00:16:14-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
         <Value>2009-05-28T00:16:06-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
         <Value>2009-05-28T00:16:16-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
         <Value>2009-05-28T00:16:26-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
         <Value>2009-05-28T00:16:12-04:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
         <Value>2009-05-28T00:16:06-04:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2010-11-05T01:11:51.4550902-04:00</Value>
+        <Value>2011-10-09T23:22:22.450096-04:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

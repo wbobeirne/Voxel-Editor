@@ -71,5 +71,16 @@ namespace VoxelEditor {
             if (alpha <= 0.4f)
                 desiredAlpha = 0.7f;
         }
+
+
+        public override string ToString(){
+
+            string returnString;
+            returnString = "blah";
+            //returnString = ("Voxel Position: {0}", world.M41);
+
+            return returnString;
+
+        }
     }
 }

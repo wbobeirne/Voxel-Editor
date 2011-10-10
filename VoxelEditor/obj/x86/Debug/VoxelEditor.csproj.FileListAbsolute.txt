@@ -6,3 +6,49 @@ C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\bin\x86\De
 C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\obj\x86\Debug\VoxelEditor.exe
 C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\obj\x86\Debug\VoxelEditor.pdb
 C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\bin\x86\Debug\Content\Textures\whiteTexture.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\obj\x86\Debug\VoxelEditor.DialogBox.resources
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\obj\x86\Debug\VoxelEditor.csproj.GenerateResource.Cache
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\obj\x86\Debug\VoxelEditor.exe
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\obj\x86\Debug\VoxelEditor.pdb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\bin\x86\Debug\Content\Textures\whiteTexture.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\bin\x86\Debug\Content\Models\cube.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\bin\x86\Debug\VoxelEditor.exe
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\bin\x86\Debug\VoxelEditor.pdb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\bin\x86\Debug\Content\Textures\ColorButton.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\bin\x86\Debug\Content\Textures\ColorButtonFull.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\bin\x86\Debug\Content\Textures\LoadButton.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\bin\x86\Debug\Content\Textures\SaveButton.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\bin\x86\Debug\Content\Textures\grid.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\bin\x86\Debug\Content\Models\backdropFull.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\bin\x86\Debug\Content\Models\flatePlane.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor(old)\VoxelEditor\bin\x86\Debug\Content\Textures\HUDbar.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\bin\x86\Debug\Content\Textures\HUD\ColorButton.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\bin\x86\Debug\Content\Textures\HUD\ColorButtonFull.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\bin\x86\Debug\Content\Textures\HUD\LoadButton.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\bin\x86\Debug\Content\Textures\HUD\SaveButton.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\bin\x86\Debug\Content\Textures\grid.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\bin\x86\Debug\Content\Textures\HUD\HUDbar.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\bin\x86\Debug\Content\Models\backdropFull.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\bin\x86\Debug\Content\Models\flatePlane.xnb
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\obj\x86\Debug\VoxelEditor.DialogBox.resources
+C:\Users\Will\Documents\My Dropbox\School\XNA\VoxelEditor\VoxelEditor\obj\x86\Debug\VoxelEditor.csproj.GenerateResource.Cache
+C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Models\backdropFull.xnb
+C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Textures\HUD\ColorButton.xnb
+C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Textures\HUD\SaveButton.xnb
+C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Models\cube.xnb
+C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Textures\HUD\ColorButtonFull.xnb
+C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Textures\HUD\HUDbar.xnb
+C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Textures\whiteTexture.xnb
+C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Textures\HUD\LoadButton.xnb
+C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Models\flatePlane.xnb
+C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\Content\Textures\grid.xnb
+C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\VoxelEditor.exe
+C:\Users\Will\Voxel-Editor\VoxelEditor\bin\x86\Debug\VoxelEditor.pdb
+C:\Users\Will\Voxel-Editor\VoxelEditor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Will\Voxel-Editor\VoxelEditor\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Will\Voxel-Editor\VoxelEditor\obj\x86\Debug\VoxelEditor.DialogBox.resources
+C:\Users\Will\Voxel-Editor\VoxelEditor\obj\x86\Debug\VoxelEditor.csproj.GenerateResource.Cache
+C:\Users\Will\Voxel-Editor\VoxelEditor\obj\x86\Debug\VoxelEditor.exe
+C:\Users\Will\Voxel-Editor\VoxelEditor\obj\x86\Debug\VoxelEditor.pdb

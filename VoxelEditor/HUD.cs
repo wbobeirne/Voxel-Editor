@@ -55,8 +55,8 @@ namespace VoxelEditor {
             verticalPosition = windowSizeY - 40;
 
             colorButtonClick = new ButtonClick(game.dialogBox.ColorSelection);
-            saveButtonClick = new ButtonClick(game.dialogBox.Save);
-            loadButtonClick = new ButtonClick(game.dialogBox.Load);
+            saveButtonClick = new ButtonClick(game.dialogBox.SaveDialog);
+            loadButtonClick = new ButtonClick(game.dialogBox.LoadDialog);
 
             spriteBatch = sb;
 

@@ -1,2 +1,10 @@
 Content\Textures\whiteTexture.xnb
+Content\Textures\HUD\ColorButton.xnb
+Content\Textures\HUD\ColorButtonFull.xnb
+Content\Textures\HUD\LoadButton.xnb
+Content\Textures\HUD\SaveButton.xnb
+Content\Textures\grid.xnb
+Content\Textures\HUD\HUDbar.xnb
 Content\Models\cube.xnb
+Content\Models\backdropFull.xnb
+Content\Models\flatePlane.xnb

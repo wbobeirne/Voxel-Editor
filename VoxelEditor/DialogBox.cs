@@ -27,7 +27,7 @@ namespace VoxelEditor {
 
         }
 
-        public void Save() {
+        public void SaveDialog() {
             // Displays a SaveFileDialog so the user can save the voxels
             this.InUse = true;
 
@@ -44,7 +44,7 @@ namespace VoxelEditor {
             this.InUse = false;
         }
 
-        public void Load() {
+        public void LoadDialog() {
             this.InUse = true;
             // Displays a SaveFileDialog so the user can save the Image
             // assigned to Button2.
