@@ -1,1 +1,5 @@
 Voxel Editor!
+
+An old project I wrote while learning XNA's 3D capabilities.
+
+Up, Down, Left and Right move along the X and Y axis. + and - move along the Z axis. Space places a voxel. Requires the XNA redists.
